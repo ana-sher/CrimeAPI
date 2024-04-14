@@ -1,0 +1,13 @@
+﻿[*.cs]
+
+# CS1591: Missing XML comment for publicly visible type or member
+dotnet_diagnostic.CS1591.severity = none
+
+# CS8714: The type cannot be used as type parameter in the generic type or method. Nullability of type argument doesn't match 'notnull' constraint.
+dotnet_diagnostic.CS8714.severity = silent
+
+# CS8602: Dereference of a possibly null reference.
+dotnet_diagnostic.CS8602.severity = silent
+
+# CS8621: Nullability of reference types in return type doesn't match the target delegate (possibly because of nullability attributes).
+dotnet_diagnostic.CS8621.severity = silent
